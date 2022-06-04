@@ -29,7 +29,6 @@ export class AppComponent {
   }
 
   ngOnInit(): void {
-    this.connectToWallet();
     this.checkWalletConnected();
   }
 }
